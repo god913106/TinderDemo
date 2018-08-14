@@ -15,7 +15,7 @@ class MessageViewController: UIViewController, UITableViewDataSource, UITableVie
     
     var images : [UIImage] = []     //互相感興趣的用戶照片
     var userIds : [String] = []     //用戶id
-    var messages : [String] = []    //
+    var messages : [String] = []    
     
     override func viewDidLoad() {
         super.viewDidLoad()
